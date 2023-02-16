@@ -26,7 +26,7 @@ import org.springframework.web.multipart.MultipartFile
 )
 @Validated
 @Tag(name = "OpenAi", description = "The OpenAI REST API")
-interface OpenAiApi {
+interface OpenaiApi {
     /**
      * POST /fine-tunes/{fine_tune_id}/cancel : Immediately cancel a fine-tune job.
      *
