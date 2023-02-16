@@ -155,8 +155,8 @@ interface OpenAiApi {
             name = "CreateCompletionRequest",
             description = "",
             required = true
-        ) @RequestBody createCompletionRequest: @Valid CreateCompletionRequest?
-    ): ResponseEntity<CreateCompletionResponse?>?
+        ) @RequestBody createCompletionRequest: @Valid CreateCompletionRequest
+    ): ResponseEntity<CreateCompletionResponse>
 
     /**
      * POST /edits : Creates a new edit for the provided input, instruction, and parameters
