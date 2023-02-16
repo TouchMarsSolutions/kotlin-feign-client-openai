@@ -26,6 +26,8 @@ public interface PetClient extends PetApi {
 ```
 
 ## keynotes
+- converted to Kotlin
 - some minor fixes were made to the generated code to make it compile
 - top reference to see [OpenAPI Generator - Spring](https://openapi-generator.tech/docs/generators/spring/)
 - todo: make [OpenAiApi](src/main/kotlin/org/openapi/openai/api/OpenAiApi.kit) `reactive`
+  - Spring WebClient idea: [Spring Reactive with OpenFeign](https://www.vinsguru.com/spring-webclient-with-feign/)
